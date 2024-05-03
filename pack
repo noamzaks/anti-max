@@ -1,0 +1,6 @@
+#!/bin/sh
+
+bun run rollup -c
+bun run pkg anti-max.js -o anti-max-macos -t node18-macos
+bun run pkg anti-max.js -o anti-max-linux -t node18-linux
+bun run pkg anti-max.js -o anti-max-windows.exe -t node18-win

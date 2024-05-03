@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sed -i 's/\\033/\\x1b/g' node_modules/qrcode-terminal/lib/main.js
